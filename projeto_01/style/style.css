@@ -2,21 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
-    font-family: 'NASA 2022 Font';
-    src: url();
+    font-family: 'Nasa21';
+    src: url('../fonts/Nasa21.ttf') format('truetype');
 }
 
 :root {
     --cor0: #000000;
     --cor1: #FFFFFF;
     --cor2: #626262;
-    --cor3: #2F28FB
-    --font0: 'Work Sans',Arial, Verdana, Helvetica, sans-serif;
-    --font1:
+    --cor3: #2F28FB;
+    --font0: 'Work Sans', Arial, Verdana, Helvetica, sans-serif;
+    --font1: 'Nasa21', sans-serif;
 }
 
 *{
     margin: 0;
     padding: 0;
+    font-weight: normal;
 }
 
+body {
+    height: 100vh;
+    background: var(--cor0) url(../imagens/moon-001.jpg); center top no-repeat fixed;
+    background-size: cover;
+}
+
+header > h1 {
+    font-family: 'Nasa21';
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--cor1);
+}
