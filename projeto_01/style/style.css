@@ -1,38 +1,31 @@
 @charset "UTF-8"
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@font-face {
-    font-family: 'Nasa21';
-    src: url('../fonts/Nasa21.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root {
     --cor0: #000000;
     --cor1: #FFFFFF;
     --cor2: #626262;
     --cor3: #2F28FB;
-    --font0: 'Roboto', 'Work Sans', Verdana, Arial, Helvetica, sans-serif;
-    --font1: 'Nasa21', sans-serif;
-    --font2: 'Didact Gothic', sans-serif;
+    --font0: 'Work Sans', Verdana, Arial, Helvetica, sans-serif;
+    --font1: 'Didact Gothic', sans-serif;
+    --font2: 'Inconsolata', monospace;
 }
 
 *{
     margin: 0;
     padding: 0;
+
 }
 
 body {
     height: 100vh;
     background: var(--cor0) url(../imagens/moon-001.jpg); center top no-repeat fixed;
     background-size: cover;
-}
-
-header > div > div > h1{
-    font-family: var(--font1);
-    font-size: 3em;
-    font-weight: bolder;
-    color: var(--cor1);
-    margin: 20px;
 }
 
 header  nav  li{
@@ -45,7 +38,7 @@ header div li a{
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1900px;
     width: 100%;
     margin: 0 auto;
 }
@@ -59,13 +52,16 @@ header .container {
 }
 
 #start {
+    font-family: var(--font2);
+    font-size: 2em;
     font-weight: bolder;
+    color: var(--cor1);
 }
 
 #center {
     font-family: var(--font0);
     font-size: 1.3em;
-    font-weight: 100;
+    font-weight: 200;
     align-items: center;
     justify-content: flex-start;
 }
@@ -73,7 +69,7 @@ header .container {
 #end {
     font-family: var(--font0);
     font-size: 1.3em;
-    font-weight: 100;
+    font-weight: 200;
     align-items: center;
     justify-content: flex-end;
 }
@@ -84,7 +80,8 @@ main {
 }
 
 #main {
-    m
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #study h1 {
