@@ -48,7 +48,6 @@ header .container {
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-
 }
 
 #start {
@@ -80,10 +79,24 @@ main {
 }
 
 #main {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 #study h1 {
     font-size: 5em;
+}
+
+#study p {
+    font-family: var(--font0);
+    font-weight: 200;
+}
+
+#study div{
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+
+footer {
+
 }
