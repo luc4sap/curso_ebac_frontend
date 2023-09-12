@@ -78,13 +78,10 @@ header .container {
 }
 
 main {
-    color: var(--cor1);
-    font-family: var(--font0);
-}
-
-#main {
     max-width: 1280px;
     margin: 0 auto;
+    color: var(--cor1);
+    font-family: var(--font0);
 }
 
 #study h1 {
