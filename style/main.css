@@ -1,0 +1,31 @@
+body {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header > section > article h1 ,div {
+    font: normal small-caps 600 1.5em Georgia, serif;
+}
+
+#mensagem {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+}
+
+#numeroA, #numeroB, #btn-compara {
+    font: normal small-caps 500 1em Georgia, serif;
+}
+
+#numeroA, #numeroB {
+    width: 400px;
+    height: 25px;
+}
+
+button#btn-compara {
+    width: 100px;
+    height: 31px;
+}
